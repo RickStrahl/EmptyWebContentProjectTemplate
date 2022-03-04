@@ -3,7 +3,7 @@
 
 This is a .NET Web Project Template that creates a **static content only** out of the root folder. It does the following:
 
-* Adds a `program.cs` with `void static Main()` function
+* Adds a `program.cs` with `void static Main()` function (required to build)
 * Adds `<IsWebConfigTransformDisabled>True</IsWebConfigTransformDisabled>` to project
 * Includes all root folder files (you can customize include/exclude lists)
 * Excludes binaries and project files
