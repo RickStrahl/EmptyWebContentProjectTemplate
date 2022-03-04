@@ -10,6 +10,7 @@ For more info and reasoning behind this template, please see the following detai
 * [Creating a Static Web Content Project for Publishing with WebDeploy](https://weblog.west-wind.com/posts/2022/Mar/03/Creating-a-Static-Web-Content-Project-for-Publishing-WebDeploy)
 
 ## Usage
+This project template is [installable via NuGet](https://www.nuget.org/packages?q=EmptyWebContentProject.Template):
 
 **Install the Template**
 
