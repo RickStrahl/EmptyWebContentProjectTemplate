@@ -7,4 +7,24 @@ As .NET Core Web SDK projects by default require a code entry point and publish 
 
 For more info and reasoning behind this template, please see the following detailed blog post:
 
-[Creating a Static Web Content Project for Publishing with WebDeploy](https://weblog.west-wind.com/posts/2022/Mar/03/Creating-a-Static-Web-Content-Project-for-Publishing-WebDeploy)
+* [Creating a Static Web Content Project for Publishing with WebDeploy](https://weblog.west-wind.com/posts/2022/Mar/03/Creating-a-Static-Web-Content-Project-for-Publishing-WebDeploy)
+
+## Usage
+
+**Install the Template**
+
+```ps
+dotnet new -i EmptyWebContentProject.Template
+```
+
+**Use the Template**
+
+```ps
+md MyProject
+cd MyProject
+
+dotnet new EmptyWebContentProject
+
+# Open your IDE or editor
+code . 
+```
