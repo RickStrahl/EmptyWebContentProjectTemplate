@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Rick Strahl, West Wind Technologies",
+  "classifications": ["web", "content", "empty"],
+  "identity": "EmptyWebContent.Project",
+  "name": "Empty Web Content Project",
+  "shortName": "EmptyWebContentProject",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "$safeprojectname$",
+  "symbols": {    
+  }
+}

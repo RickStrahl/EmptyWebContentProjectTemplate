@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+	<PropertyGroup>
+		<TargetFramework>net60</TargetFramework>		
+		<IsWebConfigTransformDisabled>True</IsWebConfigTransformDisabled>
+	</PropertyGroup>
+  
+	<ItemGroup>
+		<None Include="**/*.*" 
+		      Exclude="bin/**/*.*;obj/**/*.*;program.cs;*.csproj;*.csproj.user">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>
