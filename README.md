@@ -1,7 +1,9 @@
 # Empty Web Content Project Template .NET Core Projects
 <img src="icon.png" width="150" />
 
-This is a .NET Web Project Template that creates a **static content only** out of the root folder. It does the following:
+This is a .NET Web Project Template that creates a **static content only Web Site** that publishes out of the root folder. 
+
+It does the following:
 
 * Adds a `program.cs` with `void static Main()` function (required to build)
 * Adds `<IsWebConfigTransformDisabled>True</IsWebConfigTransformDisabled>` to project
