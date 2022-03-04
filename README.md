@@ -1,17 +1,18 @@
 # Empty Web Content Project Template .NET Core Projects
 <img src="icon.png" width="150" />
 
-This is a .NET Web Project Template that creates a **static content only Web Site** that publishes out of the root folder. 
+.NET currently doesn't have an obvious content only Web project. If you have a static Web Site that contains only static resources in a root folder and below, there's no easy way to include a project in a .NET solution.
+
+This is a .NET Web Project Template that creates a **static content only Web Site** that publishes out of the root folder and allows a static content project to 'work' without errors when the Solution  is built.
 
 It does the following:
 
 * Adds a `program.cs` with `void static Main()` function (required to build)
 * Adds `<IsWebConfigTransformDisabled>True</IsWebConfigTransformDisabled>` to project
-* Includes all root folder files (you can customize include/exclude lists)
+* Publishes all root folder files (you can customize include/exclude lists)
+* Supports Publishing via WebDeploy to IIS out of the box
 * Excludes binaries and project files
 * Adds a default WebDeploy Publishing Profile
-
-As .NET Core Web SDK projects by default require a code entry point and publish from the `wwwroot` folder this project type publishes output from the site root. It also adds a placeholder `void static Main()` function, adds a Web Deploy template and sets up the project to allow publishing without `web.config` transformations on IIS.
 
 For more info and reasoning behind this template, please see the following detailed blog post:
 
