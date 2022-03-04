@@ -27,7 +27,7 @@ This project template is [installable via NuGet](https://www.nuget.org/packages/
 dotnet new -i EmptyWebContentProject.Template
 ```
 
-**Use the Template**
+**Create a new Project**
 
 ```ps
 md MyProject
